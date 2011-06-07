@@ -1,0 +1,49 @@
+Code-Foo Challenge
+
+1) How many pennies could you put on the Golden Gate Bridge without any of them overlapping?
+For this question, please write out each step in your thought process.
+	a)	The length of the Golden Gate Bridge is 2 737.4 meters.
+	b)	The width of the bridge is 27.4 meters.
+	c)	I am assuming that I can only put pennies on the deck, and that the deck has the dimensions 2737.4m by 27.4m
+	d)	If I place pennies on the bridge vertically, than each pennie will have a rectangular area of 1.55mm by 19.05 mm
+	e)	1.55 mm * 19.05 = 29.5275 mm^2	//area of a vertical pennie in mm
+	f)	29.5275mm^2 * ( (1m)^2 / (1000mm)^2 ) = 0.0000295275m^2 //area of a vertical pennie in meters
+	g)	The total area of the Golden Gate Bridge is 2737.4m * 27.4 = 75004.76m^2
+	h)	total number of pennies =  75004.76m^2 / 0.0000295275m^2 = 2 540 166 285.6
+	i)	I only have 3 significant figures
+FINAL ANSWER:
+	2.54e9	or two billion five hundred forty million
+
+2) Our images have a ratio of 16:9, and our design layouts have 12 pixel wide increments (there are no limits on height).
+Give examples of three image sizes that would have the correct ratio and would fit the design layout.
+	192 x 108	//(16*12 x 9*12)
+	384 x 216	//(16*12 x 9*12)*2
+	576 x 324	//(16*12 x 9*12)*3
+
+3) What is the minimum number of moves required for a knight to cover the entire chess board? Write a program to prove it.
+Provide a graph with the move number on the x axis and the number of squares covered on the y axis.
+	64 moves
+	I didn't finish my program but I found the answer while designing it. My program was going to keep track of every
+	space the knight had been and always pick a space that it had not visited yet. if the the program reached a dead end
+	before filling every square, than it would back up until it was no longer trapped and move to a different possible space.
+	this would continue until completion.
+
+4) Creatively prove to us that you meet our value - Fire - that this would be more than just a job to you, and that you
+are passionate about us.
+	I aspire to be a software engineer, who makes games. I'm a college student but I've been gaming since I was 4 years
+	old when my dad brought home a computer. He paid $1800 for a computer that had 32 megs of ram. The mechine ran
+	windows 3.1 and had a dial up connection. With it, I played early PC games like doom. Games are awesome and I will
+	one day be a contributer to the best games.
+
+	In college I met some friends who are just as passionate about games as I am, and we started developing a game on the side.
+	we meet at least once a week (usually more often) and collaborate. Our current project is well underway. The software
+	architecture is complete, and we have prototyped almost every class. Since summer started I've started working on this
+	project full time, and our code is getting ever more complete. From this project I've learned alot. I hope to make a
+	release before summer ends.
+
+	IGN has always been my go to source for reviews and news. I trust IGN reviews because there right. I've never played a game
+	that I thought deserved a score much different from the one it got by IGN. I rely on IGN for game purchasing decisions, because
+	games are expensive. I want a career in the gaming industry because I love games; A coding job with IGN would be a step into the
+	gaming industry. Hell, I would do the job for free.
+
+	I program in MATLAB (for school), and JAVA (for game making), but I'm excited to learn any language.	
